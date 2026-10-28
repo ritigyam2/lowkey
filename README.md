@@ -1,9 +1,9 @@
-# lowkey 🎵
+# lowkey
 > **Break out of the algorithmic echo chamber.** An underground, indie, and low-stream song discovery engine inspired by "Unheard".
 
 ---
 
-## 💡 The Concept
+## The Concept
 Mainstream streaming services (Spotify, Apple Music) optimize for listener retention by looping viral hits, trending charts, and songs you already know. Even algorithmic features like *Discover Weekly* rarely surface tracks under 50,000 streams. Overlooked B-sides, bedroom-pop artists, and niche sub-genres are buried in the long tail.
 
 **lowkey** is built to surface hidden gems:
@@ -13,7 +13,7 @@ Mainstream streaming services (Spotify, Apple Music) optimize for listener reten
 
 ---
 
-## 🛠️ Architecture & Tech Stack
+## Architecture & Tech Stack
 
 ```
 ┌─────────────────────────┐     ┌──────────────────────────┐     ┌────────────────────────┐
@@ -36,7 +36,7 @@ Mainstream streaming services (Spotify, Apple Music) optimize for listener reten
 
 ---
 
-## 📊 Dataset Information
+## Dataset Information
 
 * **Source:** [Spotify Tracks Dataset](https://huggingface.co/datasets/maharshipandya/spotify-tracks-dataset) (~114k tracks across 114 genres) by Maharshi Pandya on Hugging Face.
 * **Processed Dataset:** [`backend/data/songs_10k.csv`](backend/data/songs_10k.csv) (10,000 clean, unique tracks).
@@ -53,7 +53,7 @@ Mainstream streaming services (Spotify, Apple Music) optimize for listener reten
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 lowkey/
@@ -73,7 +73,7 @@ lowkey/
 
 ---
 
-## 🚀 Quickstart Guide
+## Quickstart Guide
 
 ### 1. Clone & Set Up Environment
 ```bash
@@ -97,7 +97,7 @@ Validates the 10,000-vector index count and performs test queries with popularit
 
 ---
 
-## 🔍 Verified Search Examples
+## Verified Search Examples
 
 Below are actual results returned from our verification test harness (`verify_lowkey.py`):
 
@@ -125,7 +125,7 @@ Below are actual results returned from our verification test harness (`verify_lo
 
 ---
 
-## 🗺️ Roadmap
+## Roadmap
 - [x] Phase 1: Curate & sanitize 10,000-track dataset with popularity and audio traits.
 - [x] Phase 2: Implement low-RAM ONNX embedding pipeline with ChromaDB.
 - [x] Phase 3: Automated verification & similarity search harness with lowkey filters.
