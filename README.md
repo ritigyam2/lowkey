@@ -1,5 +1,5 @@
 # lowkey
-> **Break out of the algorithmic echo chamber.** An underground, indie, and low-stream song discovery engine inspired by "Unheard".
+> **Break out of the algorithmic echo chamber.** An underground, indie, and low-stream song discovery engine .
 
 ---
 
