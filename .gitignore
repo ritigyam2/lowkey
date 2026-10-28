@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.env
+.venv/
+venv/
+ENV/
+
+# ChromaDB vector database (generated via ingest_chroma.py)
+backend/data/chroma_db/
+**/chroma_db/
+*.sqlite3
+*.bin
+*.pickle
+
+# Large raw datasets (generated via fetch_data.py)
+backend/data/raw_spotify_dataset.csv
+**/raw_spotify_dataset.csv
+
+# OS and Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+

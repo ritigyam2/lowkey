@@ -1,0 +1,202 @@
+{
+  "status": "SUCCESS",
+  "total_songs_indexed": 10000,
+  "collection_name": "lowkey_songs",
+  "distance_metric": "cosine",
+  "tests": [
+    {
+      "test_name": "Lowkey Underground Bedroom Pop",
+      "query": "melancholic dreamy bedroom pop with soft vocals and lo-fi guitar",
+      "filter": {
+        "is_lowkey": true
+      },
+      "top_matches": [
+        {
+          "rank": 1,
+          "track_id": "3vEx3syxx9AdodiBPiBY5j",
+          "track_name": "Sweet Dreams",
+          "artist": "Cameron's Bedtime Classics",
+          "genre": "disney",
+          "popularity": 19,
+          "is_lowkey": true,
+          "similarity_score": 0.6179,
+          "cosine_distance": 0.3821
+        },
+        {
+          "rank": 2,
+          "track_id": "4kD3hULynIfyLp6rIYxSAi",
+          "track_name": "Dr Dream",
+          "artist": "Melorman",
+          "genre": "idm",
+          "popularity": 12,
+          "is_lowkey": true,
+          "similarity_score": 0.6102,
+          "cosine_distance": 0.3898
+        },
+        {
+          "rank": 3,
+          "track_id": "3WjHA0PI5uElMoEvtkigI4",
+          "track_name": "Watery Brown Noise",
+          "artist": "White Noise Baby Sleep",
+          "genre": "sleep",
+          "popularity": 34,
+          "is_lowkey": true,
+          "similarity_score": 0.5693,
+          "cosine_distance": 0.4307
+        },
+        {
+          "rank": 4,
+          "track_id": "0J14macNc8qWBmQfcySj8c",
+          "track_name": "Send Me the Pillow That You Dream On (Alternate Take)",
+          "artist": "Johnny Tillotson",
+          "genre": "rock-n-roll",
+          "popularity": 32,
+          "is_lowkey": true,
+          "similarity_score": 0.5671,
+          "cosine_distance": 0.4329
+        },
+        {
+          "rank": 5,
+          "track_id": "5zPZZrj0Mzm4F233VveVNg",
+          "track_name": "Back to My Bed",
+          "artist": "Elderbrook",
+          "genre": "house",
+          "popularity": 0,
+          "is_lowkey": true,
+          "similarity_score": 0.5574,
+          "cosine_distance": 0.4426
+        }
+      ]
+    },
+    {
+      "test_name": "Strict Popularity Filter (Popularity <= 25)",
+      "query": "dark late night underground electronic techno club",
+      "filter": {
+        "popularity": {
+          "$lte": 25
+        }
+      },
+      "top_matches": [
+        {
+          "rank": 1,
+          "track_id": "4Vh2XXiHc5bYMtynfKvDf4",
+          "track_name": "Midnight Escape Finale",
+          "artist": "Kick Puncher",
+          "genre": "club",
+          "popularity": 15,
+          "is_lowkey": true,
+          "similarity_score": 0.598,
+          "cosine_distance": 0.402
+        },
+        {
+          "rank": 2,
+          "track_id": "7mfemPkXO5f3uw6cXOikHQ",
+          "track_name": "Analog Feel - Greenhaven DJs Extended Remix",
+          "artist": "Cosmic Gate;Greenhaven DJs",
+          "genre": "german",
+          "popularity": 0,
+          "is_lowkey": true,
+          "similarity_score": 0.5355,
+          "cosine_distance": 0.4645
+        },
+        {
+          "rank": 3,
+          "track_id": "2snsWpChEAbMGjr9i9clEh",
+          "track_name": "Freaks of the Night",
+          "artist": "Fabio Fusco;Marc Deal",
+          "genre": "trance",
+          "popularity": 0,
+          "is_lowkey": true,
+          "similarity_score": 0.5334,
+          "cosine_distance": 0.4666
+        },
+        {
+          "rank": 4,
+          "track_id": "1cfb0I4WCjOkD51fabJW3r",
+          "track_name": "2,20 Minutes Foot Walk - Club In Motion Mix",
+          "artist": "Tak Dec",
+          "genre": "minimal-techno",
+          "popularity": 17,
+          "is_lowkey": true,
+          "similarity_score": 0.5207,
+          "cosine_distance": 0.4793
+        },
+        {
+          "rank": 5,
+          "track_id": "2Cdr8ZGc9vhBAZvsmftjZK",
+          "track_name": "Charlie Hotel 155",
+          "artist": "Underground Resistance",
+          "genre": "detroit-techno",
+          "popularity": 5,
+          "is_lowkey": true,
+          "similarity_score": 0.5196,
+          "cosine_distance": 0.4804
+        }
+      ]
+    },
+    {
+      "test_name": "Acoustic Folk & Indie Discovery",
+      "query": "peaceful warm acoustic indie folk coffee shop",
+      "filter": {
+        "is_lowkey": true
+      },
+      "top_matches": [
+        {
+          "rank": 1,
+          "track_id": "4Vj1cvf4hOjL8jc6wOuSrD",
+          "track_name": "Coffee Brewing",
+          "artist": "Sless Praismo;Frogman",
+          "genre": "study",
+          "popularity": 35,
+          "is_lowkey": true,
+          "similarity_score": 0.4898,
+          "cosine_distance": 0.5102
+        },
+        {
+          "rank": 2,
+          "track_id": "6wWH1NP5tx5nogRyrD4EbT",
+          "track_name": "Instant Coffee (feat. Kyle Hollingsworth)",
+          "artist": "Euforquestra;Kyle Hollingsworth",
+          "genre": "afrobeat",
+          "popularity": 19,
+          "is_lowkey": true,
+          "similarity_score": 0.4654,
+          "cosine_distance": 0.5346
+        },
+        {
+          "rank": 3,
+          "track_id": "2cRJ29cz59xJlz7Teh7kbm",
+          "track_name": "Coffee 'n' Sugah",
+          "artist": "GoldAshez",
+          "genre": "study",
+          "popularity": 32,
+          "is_lowkey": true,
+          "similarity_score": 0.4542,
+          "cosine_distance": 0.5458
+        },
+        {
+          "rank": 4,
+          "track_id": "6v0BTda9Sw4uREICry7vff",
+          "track_name": "Be Natural",
+          "artist": "Chilly Gonzales",
+          "genre": "ambient",
+          "popularity": 25,
+          "is_lowkey": true,
+          "similarity_score": 0.4448,
+          "cosine_distance": 0.5552
+        },
+        {
+          "rank": 5,
+          "track_id": "3awORCy7kJA14GEWC2EPt1",
+          "track_name": "Wiener Melarge",
+          "artist": "Matt Large",
+          "genre": "study",
+          "popularity": 14,
+          "is_lowkey": true,
+          "similarity_score": 0.4427,
+          "cosine_distance": 0.5573
+        }
+      ]
+    }
+  ]
+}
