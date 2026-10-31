@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use LOWKEY in your research or system architecture, please cite it as below."
+title: "LOWKEY: Enterprise-Grade Anti-Popularity Music Recommendation & Vector Retrieval Engine"
+abstract: "A high-performance Approximate Nearest Neighbor (ANN) audio retrieval engine designed to eliminate algorithmic popularity bias in music discovery using multi-dimensional acoustic traits and semantic spaces."
+authors:
+  - family-names: "Mishra"
+    given-names: "Ritigya"
+    email: "ritigyam2@gmail.com"
+repository-code: "https://github.com/ritigyam2/lowkey"
+keywords:
+  - "music-recommendation"
+  - "vector-search"
+  - "approximate-nearest-neighbors"
+  - "hnsw"
+  - "anti-popularity-bias"
+  - "information-retrieval"
+  - "spotify"
+license: "MIT"
+version: "1.0.0"
+date-released: "2026-10-31"
