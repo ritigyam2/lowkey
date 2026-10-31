@@ -2,7 +2,7 @@
 
 # LOWKEY
 
-### Enterprise-Grade Anti-Popularity Music Recommendation & Vector Retrieval Engine
+### Music Recommendation & Vector Retrieval Engine
 
 [![CI](https://github.com/ritigyam2/lowkey/actions/workflows/ci.yml/badge.svg)](https://github.com/ritigyam2/lowkey/actions)
 ![Python](https://img.shields.io/badge/python-3.10%20%7C%203.11%20%7C%203.12%20%7C%203.13%20%7C%203.14-3776AB.svg?logo=python&logoColor=white)
