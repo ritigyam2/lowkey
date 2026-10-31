@@ -1,0 +1,134 @@
+{
+  "status": "SUCCESS",
+  "total_unique_tracks_indexed": 20631,
+  "input_query_payload": {
+    "danceability": 0.9802,
+    "energy": 0.9793,
+    "valence": 0.5625,
+    "bpm": 116.69,
+    "loudness_db": -20.82,
+    "acousticness": 0.0071,
+    "instrumentalness": 0.1396,
+    "liveness": 0.0,
+    "speechiness": 0.0,
+    "key_int": 0,
+    "mode": 1
+  },
+  "mapped_features_order": [
+    "danceability",
+    "energy",
+    "valence",
+    "tempo",
+    "loudness",
+    "acousticness",
+    "instrumentalness",
+    "liveness",
+    "speechiness",
+    "key",
+    "mode"
+  ],
+  "hnsw_config": {
+    "space": "cosine",
+    "dim": 11,
+    "M": 16,
+    "ef_construction": 200,
+    "ef_search": 50
+  },
+  "top_5_recommendations": [
+    {
+      "rank": 1,
+      "track_id": "64e5abce53df46a254b3e22e6e090bc5",
+      "cosine_similarity": 0.9846,
+      "cosine_distance": 0.0154,
+      "audio_features": {
+        "danceability": 0.852,
+        "energy": 0.864,
+        "valence": 0.615,
+        "tempo": 132.999,
+        "loudness": -10.131,
+        "acousticness": 0.0334,
+        "instrumentalness": 0.0239,
+        "liveness": 0.0525,
+        "speechiness": 0.0387,
+        "key": 2.0,
+        "mode": 1.0
+      }
+    },
+    {
+      "rank": 2,
+      "track_id": "ddb42b4643a619364a830fdbf5dcfa91",
+      "cosine_similarity": 0.9837,
+      "cosine_distance": 0.0163,
+      "audio_features": {
+        "danceability": 0.819,
+        "energy": 0.838,
+        "valence": 0.494,
+        "tempo": 122.833,
+        "loudness": -6.011,
+        "acousticness": 0.0012,
+        "instrumentalness": 0.105,
+        "liveness": 0.043,
+        "speechiness": 0.0588,
+        "key": 1.0,
+        "mode": 1.0
+      }
+    },
+    {
+      "rank": 3,
+      "track_id": "81d5e0a579588588c250961420bac0be",
+      "cosine_similarity": 0.9829,
+      "cosine_distance": 0.0171,
+      "audio_features": {
+        "danceability": 0.901,
+        "energy": 0.887,
+        "valence": 0.486,
+        "tempo": 101.219,
+        "loudness": -5.928,
+        "acousticness": 0.0173,
+        "instrumentalness": 2.3e-06,
+        "liveness": 0.078,
+        "speechiness": 0.107,
+        "key": 1.0,
+        "mode": 1.0
+      }
+    },
+    {
+      "rank": 4,
+      "track_id": "72313df8f98863a3e5b25c32e824f602",
+      "cosine_similarity": 0.9825,
+      "cosine_distance": 0.0175,
+      "audio_features": {
+        "danceability": 0.805,
+        "energy": 0.788,
+        "valence": 0.575,
+        "tempo": 124.077,
+        "loudness": -12.398,
+        "acousticness": 0.115,
+        "instrumentalness": 0.00273,
+        "liveness": 0.132,
+        "speechiness": 0.0626,
+        "key": 0.0,
+        "mode": 1.0
+      }
+    },
+    {
+      "rank": 5,
+      "track_id": "9c9e90c5bffe1e7ae198ed3b67f002d5",
+      "cosine_similarity": 0.9825,
+      "cosine_distance": 0.0175,
+      "audio_features": {
+        "danceability": 0.813,
+        "energy": 0.869,
+        "valence": 0.539,
+        "tempo": 124.981,
+        "loudness": -4.416,
+        "acousticness": 0.0257,
+        "instrumentalness": 0.119,
+        "liveness": 0.0943,
+        "speechiness": 0.043,
+        "key": 1.0,
+        "mode": 1.0
+      }
+    }
+  ]
+}

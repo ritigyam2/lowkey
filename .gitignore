@@ -7,11 +7,14 @@ __pycache__/
 venv/
 ENV/
 
-# ChromaDB vector database (generated via ingest_chroma.py)
+# ChromaDB & Vector indexes (generated via ingest_chroma.py / HNSW)
 backend/data/chroma_db/
 **/chroma_db/
+backend/data/models/
+**/models/
 *.sqlite3
 *.bin
+*.joblib
 *.pickle
 
 # Large raw datasets (generated via fetch_data.py)
@@ -23,4 +26,3 @@ backend/data/raw_spotify_dataset.csv
 Thumbs.db
 .vscode/
 .idea/
-
